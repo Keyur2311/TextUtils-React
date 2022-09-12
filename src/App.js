@@ -52,7 +52,7 @@ function App() {
             <Route exact path="/about" element={<About mode={mode} />}>
             </Route>
 
-            <Route exact path="/" element={<TextForm heading="Try TextUtils - Word counter , Character counter , Copy text" showAlert={showAlert} mode={mode} />}>
+            <Route exact path="/" element={<TextForm heading="Try TextUtils App - Word counter , Character counter , Copy text" showAlert={showAlert} mode={mode} />}>
             </Route>
 
           </Routes>
